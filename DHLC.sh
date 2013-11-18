@@ -112,7 +112,7 @@ sudo dnsmasq -x /var/run/dnsmasq.pid -C /etc/dnsmasq.conf &
 sleep 1
 
 echo "=== DHCP launch ==="
-# start or resart dhcpd server (see /etc/dhcpd/dhcpd.conf)
+# start or restart dhcpd server (see /etc/dhcpd/dhcpd.conf)
 sudo touch /var/lib/dhcp/dhcpd.leases
 #sudo mkdir -p /var/run/dhcp-server
 #sudo chown dhcpd:dhcpd /var/run/dhcp-server
