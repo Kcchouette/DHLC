@@ -31,7 +31,6 @@ fi
 
 mkdir -p ./DHLCconf || exit 1
 
-
 if [ "$1" != 'start' ]; then
     echo "$0 install/start/stop"
     exit 1

@@ -23,5 +23,5 @@ MASK="255.255.255.0"
 #Name of the wifi network
 NETWORK_NAME="DHLC network"
 #if WPA_PASS="", there is no authentification
-WPA_PASS="testtest"
+WPA_PASS=""
 CHANNEL=10
